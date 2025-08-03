@@ -1,0 +1,270 @@
+/* Color principal: #08A683 */
+/* Color secundario 1: #4F3984 */
+/* Color secundaio 2: #D3383C */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #08A683;
+
+}
+
+.Logo img{
+    width: 150px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+ul .menulink{
+    list-style: none;
+}
+
+.menulink{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+a:hover{
+    color:  #5d5d5d;
+    transition: .8s;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+
+}
+
+.textoInformativo{
+    width: 50%;
+}
+
+.ilustracionHero{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.ilustracionHero img{
+    width: 250px;
+    border-radius: 5px;
+
+}
+
+h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.textoInformativo p{
+    font-size: 18px;
+    width: 80%;
+}
+
+.textoInformativo input{
+    padding: 13px 20px ;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #08A683;
+    font-size: 16px;
+    color: white;
+    width: fit-content;
+
+}
+
+.colortitulo{
+    color: #08A683;
+}
+
+#Que-es{
+    background-color: #08a6845c;
+    padding: 20px 40px;
+
+    
+}
+
+h2{
+    color:#4F3984;
+    font-size: 40px;
+}
+
+.Que-es p{
+    width: 60%;
+}
+
+.spantexto{
+   
+   color:#4F3984;
+   font-weight: bold;
+   
+}
+
+.secion2{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 40px;
+    height: 300px;
+}
+
+.listaDrogas{
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 50%;
+    background-image: url(IMGs/pexels-kevinbidwell-3602778.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+
+.descripcionDrogas{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.listaDrogas ul{
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.descripcionDrogas p{
+
+    width: 100%;
+    text-align: center;
+}
+
+.Consecuencias{
+    padding: 20px 40px;
+}
+
+.ListaConsecuencias{
+    margin: 40px 0;
+}
+
+.reflexion{
+    text-align: center;
+}
+
+#Prevencion{
+    padding: 20px 40px;
+    background-color: #08a6845c;
+}
+
+#Contacto {
+  padding: 30px;
+  background-color: #08a6845c;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#contacto h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #08A683;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #08a6845c;
+}
+
+footer {
+  background-color: #08A683;
+  color: #000;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-links {
+  text-align: left;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-links ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  color: #5d5d5d;
+}
+
+.footer-copy {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #5d5d5d;
+}
